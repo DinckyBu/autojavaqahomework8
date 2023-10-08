@@ -7,6 +7,7 @@ import ru.netology.data.DataHelper;
 import ru.netology.data.SQLHelper;
 import ru.netology.page.LoginPage;
 import static com.codeborne.selenide.Selenide.open;
+import static ru.netology.data.SQLHelper.cleanDatabase;
 
 public class BankLoginTest {
 
